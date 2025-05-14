@@ -2,14 +2,16 @@
 for ($i=0; $i < 5 ; $i++) { 
     echo "for <br>";
 }
-$a = 0;
-while ($a <= 5) {
+$a = 1;
+while ($a < 9) {
     echo "while <br>";
     $a++;
-}
+} 
+$e = 0;
 do {
-    echo"do while";
-} while ($a <= 10);
+  echo"$e";
+  $e++;
+} while ($e < 10);
 
 
 
